@@ -170,10 +170,6 @@ int main(){
     carCnt.resize(N);
     for(int i = 0; i < N; i++)  cin >> carCnt[i];
     cin >> k;
-    if (k < 0){
-        cout << "latency factor must be nonnegative!" << endl;
-        return -1;
-    }
 
     // record the information of each car
     vector<vector<Car>> cars;
